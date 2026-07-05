@@ -12,10 +12,10 @@ int main(){
         if( op == "++X" || op == "X++"){
             ++X;
         }
-        else if( op  == "--X" || op == "X++"){
+        else if( op  == "--X" || op == "X--"){
             --X;
         }
     }
-    cout << X  << endl;
+    cout << X << endl;
     return 0;
 }

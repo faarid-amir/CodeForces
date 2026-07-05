@@ -13,8 +13,6 @@ int main() {
         s.insert(n[i]);
     }
 
-    cout << s.size() << endl;
-
     if (s.size() % 2 == 0){cout << "CHAT WITH HER!" << endl; }
          else{cout << "IGNORE HIM!" << endl;}
   
